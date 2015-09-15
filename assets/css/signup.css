@@ -1,0 +1,141 @@
+body{
+	background-color: #030702;
+}
+
+.signupBox{
+	margin: auto auto;
+	margin-top: 65px;
+	max-width: 370px;
+	background-color: #030702;
+	
+}
+.signUpForm{
+	border:1px solid #030702;
+	height: 400px;
+	text-align: center;
+	margin-top: 15px;
+	font-family: helvetica;
+	background-color: #179411;
+}
+
+.inputDiv{
+	border:1px solid white;
+	margin: auto auto;
+	margin-top:17px;
+	width: 320px;
+	height: 35px;
+	padding: 5px;
+}
+
+.inputText{
+	height: 35px;
+	width:280px;
+	background-color: transparent;
+	margin: 1px auto;
+        border:0px;
+	font-size: 17px;
+	color: #fff;
+	text-transform: capitalize;
+	padding: 5px;
+	border-bottom: 1px solid transparent;
+}
+
+.inputText:focus{
+        border-bottom: 1px solid #ddd;
+}
+
+
+.inputTextLabel{
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	margin: 4px auto;
+	margin-left: 2px;
+}
+
+.inputTextLabel > img{
+	width: 32px;
+}
+
+.inputTextbtn{
+	width:328px ;
+	background-color: #fff;
+	color: #179411;
+	text-transform: uppercase;
+	cursor: pointer;
+	height: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	-webkit-transition: background 250ms ease-in-out;
+	-moz-transition: background 250ms ease-in-out;
+	-o-transition: background 250ms ease-in-out;
+	margin-top:  25px;
+}
+
+.inputTextbtn:hover{
+	background-color: #12A512;
+	color: #fff
+}
+
+.inputDiv{
+	border:1px solid #fff;
+
+}
+
+.allSocMed{
+	width:320px;
+	margin:15px auto;
+}
+
+.socMed{
+	border:1px solid #fff;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 5px 10px;
+	cursor: pointer;
+}
+.socMed >img{
+	width: 20px;
+	margin: 10px auto;
+}
+
+.socMed:nth-child(1):hover{
+	background-color: #475A84;
+	border-color: #179411
+}
+
+.socMed:nth-child(2):hover{
+		background-color: #65C8E8;
+		border-color: #179411
+}
+
+.socMed:nth-child(3):hover{
+		background-color: #780E01;
+		border-color: #179411
+}
+
+.signWith{
+	text-transform: uppercase;
+	margin-top: 30px;
+	color: #fff;
+	font-size: 15px;
+	display: block;
+}
+
+#sign{
+	display: block;
+	margin: auto auto;
+	text-align: center;
+
+}
+
+#sign a{
+	color: #fff;
+	font-family: serif;
+	border-bottom: 1px solid grey;
+	border-style: dotted;
+	line-height: 35px;	
+}
+

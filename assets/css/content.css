@@ -1,0 +1,198 @@
+.container{
+	background-color: #ffffff;
+	width: 1524px;
+}
+
+.sectOne{
+	background-color: #2C2C2C;
+}
+
+.logo{
+	float: left;
+	margin:7px;
+	margin-left:50px;
+}
+
+.search{
+	padding-left: 3px;
+	float: right;
+	margin: 7px;
+	margin-right: 50px;
+	border:1px solid #ffffff;
+	border-radius: 4px 4px;
+}
+
+.search > input{
+	border:none;
+	background-color: transparent;
+	width: 200px;
+	height: 30px;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: helvetica;
+}
+
+.search >img{
+	padding: 5px;
+	cursor: pointer;
+}
+
+.clear{
+	clear: both;
+}
+
+.sectTwo{
+	min-height: 200px;
+	padding: 20px;
+	background-color: #DEDEDE;
+}
+
+.oneImage , .aboutImage{
+	height: 200px;
+	width: 150px;
+	display: inline-block;
+}
+
+.oneImage{
+	margin-left: 450px;
+	background:url(../img/books/stars.jpg) center ;
+	background-size: 100% 100%;
+}
+
+.aboutImage{
+	margin-left: 10px;
+	width: 450px;
+}
+.aboutImage > h1{
+	font-size: 30px;
+	text-transform: capitalize;
+	font-family: tahoma;
+	color:#000000;
+}
+
+.aboutImage > h2{
+	font-size: 17px;
+	text-transform: capitalize;
+	color: #F8742A;
+	font-weight: normal;
+}
+
+.aboutImage > span{
+	font-size: 15px;
+	font-family: tahoma;
+}
+
+#sub{
+	border:none;
+	background-color: #6B6B6B;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 5px ;
+	border-radius: 4px 4px;
+	margin-top: 10px;
+	cursor: pointer;
+	-webkit-transition: background 250ms ease-in-out;
+	-moz-transition: background 250ms ease-in-out;
+	-o-transition: background 250ms ease-in-out;
+}
+
+#sub:hover{
+	background-color: #bababa
+}
+
+#free{
+	border:none;
+	background-color: transparent !important;
+	text-transform: uppercase;
+	font-family: 15px;
+	cursor: pointer;
+}
+
+#read:hover{
+	background-color: #8AFF79;
+}
+
+#read{
+	border:none;
+	background-color: #24FF00;
+	text-transform: uppercase;
+	font-family: 15px;
+	color: #ffffff;
+	border-radius: 4px 4px;
+	padding: 7px ;
+	margin-top: 6px;
+	cursor: pointer;
+	-webkit-transition: background 250ms ease-in-out;
+	-moz-transition: background 250ms ease-in-out;
+	-o-transition: background 250ms ease-in-out;
+}
+
+.sectThree{
+}
+
+.sectThree > ul{
+	text-align: center;
+	margin-top: 6px;
+}
+
+hr{
+	border:1px solid #000000;
+	width:1020px;
+	padding: 0px;
+}
+
+.sectThree >ul li:nth-child(1){
+	 border:none;
+}
+
+.sectThree >ul li {
+	border-left: 1px solid black;
+	display: inline-block;
+	font-family: helvetica;
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 15px;
+	padding: 0px  10px;
+	margin-left: -5px;
+	cursor: pointer;
+}
+
+.sectFour{
+	height: 432px;
+	padding: 0px 70px;
+}
+
+.books{
+	display: inline-block;
+	border:0px solid black;
+	width: 150px;
+	height: 216px;
+	font-size: 11px;
+	padding-left: 30px;
+	margin-bottom: 7px;
+
+}
+
+.books > img{
+	width: 150px;
+	height: 200px
+}
+
+.focus{
+	color: #0066CC !important;
+}
+
+.name{
+	float:left;
+	color:#5FB0D7
+}
+
+.num{
+	color:#FF9100;
+}
+
+.pages{
+	float:right;
+	color:#BAB7B7
+}

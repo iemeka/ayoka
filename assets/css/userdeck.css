@@ -1,0 +1,258 @@
+body{
+	width: 1536px;
+}
+section{
+	height: 769.5px;
+	float: left;
+}
+
+.colOne{
+	border:none;
+	width: 18%;
+	background-color: #777777;
+
+}
+
+.colOne >img{
+	display: block;
+	border:2px solid #ffffff;
+	height: 200px;
+	width: 200px;
+	border-radius: 50% 50%;
+	margin: 50px auto 15px auto;
+}
+
+.colOne > h1{
+	text-align: center;
+	text-transform: capitalize;
+	color: #FF9100;
+	font-size: 17px;
+	font-family: helvetica;
+}
+
+.colOne > ul{
+	display: block;
+	text-align: left;
+	margin-top: 50px;
+	
+}
+
+.colOne > ul li{
+	display: block;
+	border:1px solid #585858;
+	color:#565656;
+	text-transform: capitalize;
+	font-family: arial;
+	font-size: 20px;
+	padding: 10px;
+	padding-left: 80px;
+	cursor: pointer;
+	-webkit-transition: background 250ms ease-in-out;
+	-moz-transition: background 250ms ease-in-out;
+	-o-transition: background 250ms ease-in-out;
+}
+
+.colOne > ul li:hover{
+	background-color:#bababa;
+	color:  #585858
+}
+
+#edit{
+	border-bottom: none;
+}
+
+.colTwo{
+	border:none;
+	width: 25.5%;
+	background-color: #777777;
+	overflow: scroll;
+}
+
+.contCol{
+	width: 20px;
+	float: left;
+	height: 769.5px;
+	background-color: #4F4F4F;
+	position: absolute;
+}
+
+.contCol > img{
+	margin-top: 336px;
+	width:13px;
+	margin-left: 4px;
+	cursor: pointer;
+}
+
+.rowOne{
+	display: block;
+	margin-top: 10px;
+}
+
+.rowOne > a{
+	margin-left: 30px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 15px
+}
+.rowOne > a > img{
+	margin-top: 4px;
+}
+
+.rowOne >label >img{
+	margin-right: 5px;
+	cursor: pointer;
+}
+.others{
+	margin-top: 20px;
+	display: block;
+	cursor: pointer;
+	-webkit-transition: background 250ms ease-in-out;
+	-moz-transition: background 250ms ease-in-out;
+	-o-transition: background 250ms ease-in-out;
+}
+
+.others:hover{
+	color: #777777;
+	background-color: #ECECEC;
+}
+
+.others:hover .othersOne>span{
+	color: #777777;
+}
+
+.othersOne >img{
+	height: 100px;
+	width: 100px;
+	background-color: #ffffff;
+	margin: 10px 0px 0px 30px;
+}
+
+.othersOne > span{
+	height: 100px;
+	width: 220px;
+	display: block;
+	margin-top: 10px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: tahoma;
+	color: #ffffff;
+	float: right;
+	margin-right: 10px;
+}
+ 
+.othersTwo{
+	margin-top: 10px;
+	text-transform: capitalize;
+	font-size: 15px;
+	color:#BABABA; 
+}
+
+.date{
+	text-align: left;
+	margin-left: 30px;
+}
+
+.date>img{
+	margin-top: 2px;
+}
+
+
+.views{
+	text-align: left;
+	margin-left: 125px;
+}
+
+.views>img{
+	margin-top: 1px;
+}
+
+
+.colThree{
+	width: 51.5%;
+	border:none;
+}
+
+.title{
+	padding-top: 50px;
+	display: block;
+	background: url(../img/wow2.jpg) no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+	text-align: center;
+	height: 230px;
+}
+
+.inTitle{
+	display: block;
+	text-transform: capitalize;
+	font-family: tahoma;
+}
+
+.inTitle>h2{
+	font-size: 60px;
+	font-weight: bolder;
+	font-family: helvetica;
+}
+
+.inTitle>h2>small{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.inTitle>h1{
+	font-size: 25px;
+	text-transform: capitalize;
+	font-weight: normal;
+	font-family: helvetica
+}
+
+.story{
+	height: 439px;
+	padding: 25px;
+	background-color: #ECECEC;
+}
+.colFour{
+	width: 5%;
+	background-color:#4F4F4F;
+	padding-top: 50px;
+	height: 719.5px
+}
+.colFour >img{
+	display: block;
+	width: 25px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.colFour > ul{
+	margin-top: 60px;
+	display: block;
+	color: #FEFEFE;
+}
+
+.colFour > ul li{
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: arial;
+	font-size: 17px;
+	margin-top: 20px;
+}
+
+.colFour > ul li:nth-child(5){
+	color:#FF9100;
+}
+
+hr{
+	width: 340px;
+	border:1px solid #828282
+}
+
+
+.clear{
+	clear: both;
+}
+
+.changeCol{
+	color: #777777;
+}

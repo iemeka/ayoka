@@ -1,0 +1,168 @@
+.container{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(000,000,000, 0.7);
+}
+
+.boxOut{
+	height: 550px;
+	width: 1100px;
+	background-color: #ECECEC;
+	position: relative;
+	margin: auto auto;
+	top: 80px;
+}
+
+.boxOutPics, .boxOutTitle, .boxOutDetails {
+	border:1px solid #D9D9D9;
+	height: 200px;
+	width :200px;
+	position: relative;
+}
+.boxOutpics{
+	float: left;
+	height: 548px;
+	width: 350px;
+}
+
+.image{
+	position: relative;
+	margin: auto;
+	height: 430px;
+	width: 290px;
+	top:50px;
+	background: url(../img/girl.jpg)center  no-repeat;
+	background-size: 100% 100%;
+}
+
+.boxOutTitle{
+	float: left;
+	height: 148px;
+	width: 746px;
+}
+
+.boxOutTitle > img{
+	position: relative;
+	left: 705px;
+	width: 20px;
+	top: 10px;
+	cursor: pointer;
+}
+
+.title{
+	display: inline-block;
+	position: relative;
+	top: 40px;
+	left: 15px;
+	letter-spacing: 2px;
+	color: #797979;
+}
+
+.title > h1{
+	text-transform: uppercase;
+	font-family: helvetica;
+	font-size: 35px;
+	word-spacing: 2px;
+	margin-bottom: 5px;
+	color: #2E2E2E;
+}
+
+.inTitle{
+	margin-bottom: 5px;
+}
+
+.boxOutDetails{
+	float: left;
+	height: 399px;
+	width: 746px;
+	color: red;
+	z-index: 0;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+.clear{
+	clear: both;
+}
+
+
+button{
+	cursor: pointer;
+	width: 250.3px;
+	display: inline-block;
+	background-color: transparent;
+	color:#7E7E7E;
+	text-align: center;
+	text-transform: uppercase;
+	transition: .25s ease;
+	border:1px solid  #D9D9D9;
+	padding:15px;
+	margin-right: -5px;
+	font-size:18px;
+}
+
+div:focus button, button:focus {
+  	border-bottom: none;
+  	outline: none;
+}
+
+button:focus + .p,div:focus .p {
+  	 display: block;
+ 	 position: absolute;
+ 	 background-color: #ECECEC;
+  	color: #797979;
+  	width: 665px;
+  	min-height:274px; 
+  	left: 40;
+ 	z-index: 2;
+  	outline: none;
+  	top: 56px;
+  	text-align: left;
+  	padding-top: 5px;
+}
+
+.details{
+	display: block;
+ 	 position: absolute;
+ 	 background-color:transparent ;
+  	color: #797979;
+  	width: 665px;
+  	left: 40;
+ 	z-index: 0;
+  	outline: none;
+  	top: 56px;
+  	text-align: left;
+  	padding-top: 5px;
+  	font-size: 17px;
+}
+
+.p {
+	display: none;
+    	font-size: 17px;
+}
+
+.tabdiv {
+  	display: inline-block;
+}
+
+.tab:focus {
+  	outline: none;
+}
+
+.follow{
+	background-color: #4BF218;
+}
+
+.star{
+	border:0px solid black;
+	display: inline-block;
+	width: auto;
+	position: relative;
+	top: 290px;
+	left: 40px;
+}
+
+.star > img{
+	cursor: pointer;
+}
