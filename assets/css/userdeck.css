@@ -1,8 +1,10 @@
 body{
-	width: 1536px;
+    height:100%;
+    overflow:hidden;
+	
 }
 section{
-	height: 769.5px;
+	height: 100%;
 	float: left;
 }
 
@@ -71,7 +73,7 @@ section{
 .contCol{
 	width: 20px;
 	float: left;
-	height: 769.5px;
+	height: 100%;
 	background-color: #4F4F4F;
 	position: absolute;
 }
@@ -207,7 +209,7 @@ section{
 }
 
 .story{
-	height: 439px;
+	height: 100%;
 	padding: 25px;
 	background-color: #ECECEC;
 }
@@ -215,7 +217,7 @@ section{
 	width: 5%;
 	background-color:#4F4F4F;
 	padding-top: 50px;
-	height: 719.5px
+	height: 100%
 }
 .colFour >img{
 	display: block;

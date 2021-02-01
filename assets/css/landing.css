@@ -5,8 +5,8 @@ body{
 
 .container{
 	border: 0px solid black;
-	min-height: 769.5px;
-	max-width: 1536px;
+	min-height: 100%;
+	max-width: 100%;
 	margin: 0px 0px;
 	position: relative;
 	background-color: rgba(000, 000, 000 , 0.93)
